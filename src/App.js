@@ -53,7 +53,7 @@ function App() {
           aria-checked={interests.interest1}
           onChange={updateInterests}
         />
-        <label htmlFor="interest1">Interest 1</label>
+        <label htmlFor="interest1">Web Development</label>
         <input
           type="checkbox"
           id="interest2"
@@ -61,7 +61,7 @@ function App() {
           aria-checked={interests.interest2}
           onChange={updateInterests}
         />
-        <label htmlFor="interest2">Interest 2</label>
+        <label htmlFor="interest2">Mobile Programming</label>
         <input
           type="checkbox"
           id="interest3"
@@ -69,7 +69,7 @@ function App() {
           aria-checked={interests.interest3}
           onChange={updateInterests}
         />
-        <label htmlFor="interest3">Interest 3</label>
+        <label htmlFor="interest3">Graphic Design</label>
       </div>
       <button type="submit">Submit</button>
     </form>
@@ -79,17 +79,17 @@ function App() {
     <div>
       <p>Thanks {fullName}! You are signed up for these newsletters:</p>
       <ul>
-        {interests.interest1 ? <li>Interest 1</li> : null}
-        {interests.interest2 ? <li>Interest 2</li> : null}
-        {interests.interest3 ? <li>Interest 3</li> : null}
+        {interests.interest1 ? <li>Web Development</li> : null}
+        {interests.interest2 ? <li>Mobile Programming</li> : null}
+        {interests.interest3 ? <li>Graphic Design</li> : null}
       </ul>
     </div>
   );
 
   return (
     <main>
-      <h1>Hi, I'm (your name)</h1>
-      <img alt="My profile pic" src="https://via.placeholder.com/350" />
+      <h1>Hi, I'm Amos Oluoch</h1>
+      <img alt="My profile pic" src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" />
       <h2>About Me</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
